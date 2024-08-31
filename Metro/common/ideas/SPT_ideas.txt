@@ -8,13 +8,21 @@ ideas = {
 
 			removal_cost = -1
 
+			on_add = {
+				add_to_variable = { spec_ops_cap_from_national_spirits = 10 }
+				calc_battalion_limit = yes
+			}
+			on_remove = {
+				subtract_from_variable = { spec_ops_cap_from_national_spirits = 10 }
+				calc_battalion_limit = yes
+			}
+
 			modifier = {
 				special_forces_min = 10
 				special_forces_attack_factor = 0.05
 				special_forces_defence_factor = 0.05
 				experience_gain_army = 0.05
 				political_power_gain = -0.25
-				army_spending_cost_factor = -0.25
 	        }	
 	    }
 		the_order_help = {

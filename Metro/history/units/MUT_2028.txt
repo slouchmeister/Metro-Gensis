@@ -2,46 +2,74 @@ division_template = {
 	name = "Division"			
 
 	regiments = {
-		mutant_infantry =  { x = 0 y = 0 }
-		mutant_infantry =  { x = 1 y = 0 }
-		mutant_infantry =  { x = 2 y = 0 }
+		irregulars =  { x = 0 y = 0 }
+		irregulars =  { x = 1 y = 0 }
+		irregulars =  { x = 2 y = 0 }
 	}
 }
 
 units = {
 	division = {
-		name = "1st Division"
-		location = 2307
+		name = "Nosalises"
+		location = 2321
 		division_template = "Division"
-		start_experience_factor = 0.11
+		start_experience_factor = 0.01
 
 	}
 	division = {
-		name = "2nd Division"
-		location = 2323
+		name = "Nosalises"
+		location = 2321
 		division_template = "Division"
-		start_experience_factor = 0.11
+		start_experience_factor = 0.01
 
 	}
 	division = {
-		name = "3rd Division"
-		location = 2316
+		name = "Nosalises"
+		location = 2321
 		division_template = "Division"
-		start_experience_factor = 0.11
+		start_experience_factor = 0.01
 
 	}
 	division = {
-		name = "4th Division"
+		name = "Nosalises"
 		location = 2329
 		division_template = "Division"
-		start_experience_factor = 0.11
+		start_experience_factor = 0.01
 
 	}
 	division = {
-		name = "5th Division"
+		name = "Nosalises"
 		location = 167
 		division_template = "Division"
-		start_experience_factor = 0.11
+		start_experience_factor = 0.01
+
+	}
+	division = {
+		name = "Nosalises"
+		location = 167
+		division_template = "Division"
+		start_experience_factor = 0.01
+
+	}
+	division = {
+		name = "Nosalises"
+		location = 167
+		division_template = "Division"
+		start_experience_factor = 0.01
+
+	}
+	division = {
+		name = "Nosalises"
+		location = 167
+		division_template = "Division"
+		start_experience_factor = 0.01
+
+	}
+	division = {
+		name = "Nosalises"
+		location = 167
+		division_template = "Division"
+		start_experience_factor = 0.01
 
 	}
 }
@@ -54,6 +82,6 @@ instant_effect = {
 		}
 		requested_factories = 5
 		progress = 0.5
-		efficiency = 100
+		efficiency = 75
 	}
 }

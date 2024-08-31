@@ -63,9 +63,6 @@ bookmarks = {
 				PLS_ignorance
 			}
 			focuses = {
-				PLS_with_fire_and_sword
-				PLS_the_last_redoubt
-				PLS_guardians_of_knowledge
 			}	
 		}
 
@@ -127,13 +124,12 @@ bookmarks = {
 			ideology = dictatorial
 			ideas = {
 			    savage_cannibals
-				GWC_technophobes
-				GWC_sickened_3
+			    GWC_technophobes
 			}
 			focuses = {
-				GWC_supremacy_of_force
+				GWC_focus_14a
 				GWC_focus_12
-				GWC_supremacy_of_wit
+				GWC_focus_15_ARB
 			}	
 		}
 
